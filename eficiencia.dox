@@ -1,0 +1,29 @@
+/**
+    @page repeficiencia Eficiencia
+
+    ##Bag
+    Este T.D.A es el más eficiente ya que todos sus métodos son de complejidad constante.
+    Para más detalle pulse el siguiente enlace <a href="compbag.html">Eficiencia Bag</a>
+
+    ##Dictionary
+    Tanto los constructores, como los métodos básicos de consulta como size, empty... etc, son de complejidad constante.\n
+    Los métodos para modificar el diccionario, como por ejemplo insert y erase son de complejidad logarítmica.\n
+    En cuanto a getTotalLetters y wordsOfLength son de complejidad lineal.
+    Para más detalle sobre el resto de métodos consulte el siguiente enlace <a href="compdictionary.html">Eficiencia Dictionary</a>
+
+    ##Letters Set
+    Los métodos de este T.D.A tienen una complejidad variada, nos encontramos O(log(n)) en métodos como erase, insert o el\n
+    operador[], incluso O(nlog(n)) en el operador >>. \n
+    Para más detalle pulse el siguiente enlace     <a href="complettersset.html">Eficiencia LettersSet</a>
+
+    ##Letters Bag
+    Excepto el constructor con parámetro y el método extractLetters que son de complejidad lineal, el resto de métodos\n
+    son de complejidad constante. Para más detalle, puede consultar el siguiente enlace <a href="complettersbag.html">Eficiencia LettersBag</a>
+
+    ##Solver
+    El método getSolutions tiene una complejidad O(n^4), esLegal O(n^3) y el constructor constante.
+    Para mas detalle, puede consultar el siguiente enlace <a href="compsolver.html">Eficiencia Solver</a>
+
+    \n\n
+    #######¡Advertencia!Sabemos que los enlaces ofrecidos contienen información que debe ocultarse hacía el usuario.Se muestra con el único fin de justificar las soluciones propuestas
+*/

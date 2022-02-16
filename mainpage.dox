@@ -1,0 +1,25 @@
+/*! \mainpage Solver Scrabble
+
+# Introducción
+
+Este proyecto gira sobre el popular juego cifras y letras, centrándose en la parte de letras.
+Los TDAs implementados permiten al usuario jugar al juego de letras en diferentes modos.
+En el modo a longitud se tiene en cuenta sólo la longitud de las palabras, y gana la palabra más
+larga encontrada. Mientras que en el modo a puntos, cada letra se le asigna una puntuación, y
+la puntuación de la palabra será igual a la suma de las puntuaciones de las letras que la componen.
+Además, el proyecto incluye un solver que muestra las palabras que tienen la mayor puntuación posible.
+
+# Ejecutables
+
+## Partida_letras:
+
+Busca las mejores soluciones a un conjunto de letras obtenido aleatoriamente, e imprime por pantalla tanto las letras con
+las que se juega en la partida como las mejores soluciones que se pueden obtener con dichas letras y la puntuación
+de dichas soluciones
+
+> __Partida_letras__ \<FichInfoLetras\> \<FichInfoDiccionario\> \<ModoJuego\>
+@param "<FichInfoLetras>" Ruta al archivo con información sobre el conjunto de letras
+@param "<FichInfoDiccionario>" Ruta al archivo con información sobre el diccionario
+@param "ModoJuego" Modo de Juego del que se desee obtener la solución
+*/
+
